@@ -653,7 +653,7 @@
                 <p>Romania, Constanta</p>
               </div>
 
-              <div class="email">
+              <div class="email" onclick="openEmail()">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
                 <p>cristi.sburlea.office@gmail.com</p>
@@ -746,6 +746,13 @@
     gtag('js', new Date());
 
     gtag('config', 'G-P2N4RREVER');
+  </script>
+
+  <!-- mailto -->
+  <script>
+    function openEmail() {
+      window.location.href = "mailto:cristi.sburlea.office@gmail.com;?subject=Contact";
+    }
   </script>
 
 </body>
