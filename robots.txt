@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /private/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://sbcristi.github.io/sitemap.xml
